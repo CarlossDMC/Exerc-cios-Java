@@ -1,0 +1,1 @@
+Exercícios de java para treinar o uso da linguagem.

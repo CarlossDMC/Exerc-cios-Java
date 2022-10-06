@@ -1,0 +1,37 @@
+package main;
+
+import java.util.Scanner;
+
+import utilities.operations;
+
+public class cash_machine {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("Insert the owner name: ");
+		String owner_name = sc.next();
+		
+		System.out.println("Insert the number account: ");
+		int number_account = sc.nextInt();
+		
+		System.out.println("Insert the initial deposit: ");
+		double initial_deposit = sc.nextDouble();
+		
+		operations op = new operations(number_account, owner_name, initial_deposit);
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		sc.close();
+		
+
+	}
+
+}
