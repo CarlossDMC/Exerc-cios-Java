@@ -42,8 +42,6 @@ public interface employees {
 			System.out.println("SUCCESS");
 		}
 		
-		
-		
 		for(int i=0; i<employees_name.size(); i++) {
 			System.out.println("--------------------------------------");
 			System.out.println("List of employees:");
@@ -51,17 +49,7 @@ public interface employees {
 			System.out.println("Name: " + employees_name.get(i));
 			System.out.println("Id: " + employees_id.get(i));
 			System.out.println("Salary: " + employees_salary.get(i));
-			
-			
-			
 		}
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 
